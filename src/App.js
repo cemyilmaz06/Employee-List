@@ -4,10 +4,8 @@ import "./index.scss"
 import data from "./helper/data.js"
 
 function App() {
-  const [kişi, setKişi] = useState("")
-  const handleClick=()=>{
-    setKişi(kişi)
-  }
+  const [page, setPage] = useState("")
+  
  
   return (
     <main>
