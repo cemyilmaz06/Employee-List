@@ -3,7 +3,7 @@ import React from "react";
 const List = ({image,name,email,age}) => {
   return (
     <>
-      <article className="person">
+      <article  className="person">
         <img src={image} alt={"name"} />
         <div>
           <h4>{name}</h4>
