@@ -36,7 +36,7 @@ function App() {
         </div>
 
        < div className="btns">
-        <button value="prev" onClick={handleClick}>
+        <button  value="prev" onClick={handleClick}>
           Previous
         </button>
         <button value="next" onClick={handleClick}>
