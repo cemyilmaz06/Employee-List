@@ -8,15 +8,15 @@ function App() {
   const [count, setCount] = useState(0);
   const handleClick = (e) => {
     if (e.target.value === "next") {
-      if (count >= 0 && count < 11) {
+      if (count >= 0 && count <= 11) {
         setCount(count + 5);
       } else if (count >= 15) {
         setCount(count);
       }
     } else if (e.target.value === "prev") {
-      if (count > 0) {
+      if (count >= 5) {
         setCount(count - 5);
-      } else if (count <= 0) {
+      } else if (count < 5) {
         setCount(count);
       }
     }
